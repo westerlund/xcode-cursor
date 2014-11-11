@@ -12,9 +12,9 @@ cp DVTIbeamCursor.tiff{,.old} # 2
 convert DVTIbeamCursor.tiff -negate DVTIbeamCursor.tiff # 3
 ```
 
-1 open the folder containing the fursor
-2 create a .old copy of the cursor, for backup
-3 invert the cursor and replace it
+* 1 open the folder containing the cursor
+* 2 create a .old copy of the cursor, for backup
+* 3 invert the cursor and replace it
 
 ### bash: convert: command not found
 If you don't have convert on your machine, you can just download the converted cursor from my repo.
