@@ -7,10 +7,14 @@ Well here's the perfect solution.
 Open terminal on your mac an type the following:
 
 ```Bash
-cd /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework/Versions/A/Resources // open the folder containing the fursor
-cp DVTIbeamCursor.tiff{,.old} // create a .old copy of the cursor, for backup
-convert DVTIbeamCursor.tiff -negate DVTIbeamCursor.tiff // invert the cursor and replace it
+cd /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework/Versions/A/Resources # 1
+cp DVTIbeamCursor.tiff{,.old} # 2
+convert DVTIbeamCursor.tiff -negate DVTIbeamCursor.tiff # 3
 ```
+
+1 open the folder containing the fursor
+2 create a .old copy of the cursor, for backup
+3 invert the cursor and replace it
 
 ### bash: convert: command not found
 If you don't have convert on your machine, you can just download the converted cursor from my repo.
