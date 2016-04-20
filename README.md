@@ -4,13 +4,15 @@ Changing the cursor in Xcode
 Do you also use a dark theme in xcode, but you can't really see the cursor?
 Well here's the perfect solution.
 
+![cursor](https://github.com/westerlund/xcode-cursor/blob/master/cursor.png)
+
 Xcode 7.3
 =========
 
-Apple did change the format of the cursor, now being an Asset.car.
+Apple changed the format of the cursor, now being an Asset.car.
 Copy the provided `Asset.car` to the following directory:
 ```
-Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework/Versions/A/Resources/
+/Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework/Versions/A/Resources/
 ```
 
 Xcode 7.2 and earlier
